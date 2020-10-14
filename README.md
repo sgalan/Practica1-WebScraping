@@ -20,7 +20,7 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 
 ### Representació gràfica
 
-## Congingut
+## Contingut
 
 ## Agraïments
 
