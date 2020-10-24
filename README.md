@@ -41,12 +41,6 @@ La taula inicial de dades, s'ha restringit per temes de mida i simplificació a 
 
 Respecte les variables de la taula de dades inicial, una descripció es pot trobar [aquí](https://data.europa.eu/euodp/en/data/dataset/ted-csv/resource/08c8857c-d42e-4dd2-a55f-1c44e629e76f). La taula de dades inicial conté 64 variables de les quals s’han seleccionat les que tenen interès de cara al objectiu de l’estudi. A continuació es mostra el detall de les variables seleccionades per la taula definitiva.
 
-| NOM VARIABLE  | DESCRIPCIÓ | ESCALA MESURA
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
 Nom variable| 	Descripció	| Escala
 ID_NOTICE_CN | 	Identificador únic de la contractació| 	Caràcter
 TED_NOTICE_URL	| Url a tota la informació de la contractació | 	Caràcter
