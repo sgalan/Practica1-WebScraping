@@ -55,7 +55,7 @@ VALUE_EURO_FIN_1 | 	Import en Euros del contracte | 	Numèric
 DURATION | 	Durada contractació | 	Numèric
 NUTS3 | 	Codi a completar amb la geo-localització | 	Caràcter
 
-Per tant, la taula de dades final conté 12.956 contractacions informades en 12 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatius a la sostenibilitat (a partir de l'atribut CPV) i relocionar-ho amb altres indicadors com l'econòmic o la durada. 
+Per tant, la taula de dades final conté 12.956 contractacions informades en 12 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la sostenibilitat (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada. 
 
 
 ### Representació gràfica
