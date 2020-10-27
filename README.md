@@ -70,5 +70,5 @@ Per tant, la taula de dades final conté 12.956 contractacions públiques europp
 
 ## Inspiració
 
-Avui dia ...
-
+Avui dia es parla de la transformació digital, la indústria 4.0, la societat 5.0. Espanya a posat en marxa l'agenda digital 2025. Tots aquests conceptes responen a un canvi cultural que està a l'ambient i que pretén ser una millora de present i futur. També és una necessitat donat el canvi i el dinamisme del món actual. La transformació digital d’una organització permetrà una nova manera d’interrelacionar i transformar el coneixement. A nivell empresarial representa un camí obligatori pel que fa referència a la competitivitat del mercat empresarial global. El terme digital fa referència a la tecnologia que treballa amb dades. La implementació de tecnologia és un dels aspectes de la transformació digital però no la defineix, en absolut, en si mateixa. Aquesta ha d’estar destinada a la consecució dels objectius de l’organització que pretén fer aquest canvi de paradigma de forma rigorosa i precisa a partir d’uns protocols que guien en aquesta metamorfosi global. Això implica canvis en la forma d’actuar i de pensar en tots els nivells de l’estructura de l’entitat, és un canvi cultural. 
+La  motivació d'aquest treball sorgeix de la idea de comprovar si a nivell públic s'està
