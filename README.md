@@ -13,7 +13,7 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
     - [Inspiració](#inspiració)
 
 <!-- /TOC -->
-# Compleció de dades per l’estudi de la presència de conceptes relatius a la sostenibilitat en l’àmbit de les contractacions públiques europees
+# Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
 
 ## Context
 
