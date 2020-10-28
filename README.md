@@ -63,6 +63,9 @@ Per tant, la taula de dades final conté 12.956 contractacions públiques europp
 
 
 ### Representació gràfica
+En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no.
+<img src="https://github.com/sgalan/Practica1-WebScraping/Images/information_available.jpg" height= "350" width="470">
+
 
 ## Contingut
 
