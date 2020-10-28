@@ -65,15 +65,15 @@ Per tant, la taula de dades final conté 12.956 contractacions públiques europp
 ### Representació gràfica
 En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no després d'aplicar el script de web scraping (get_nuts.py).
 
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
+<img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
 
 Dels projectes els quals tenen informació disponible en el camp NUTS3, obtenim la seva localització creuant la informació amb el diccionari disponible (nuts_dictionary.pickle). En aquest gràfic de barres podem observar de manera ordenada d'esquerre a dreta les províncies que tenen més projectes.
 
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Number_projects_ES.png" height= "350" width="500">
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Number_projects_ES.png" height= "280" width="1050">
 
 Finalment, en aquest gràfic de barres podem observar del total de projectes per província quin és el percentatge d'aquells que es troben dins del camp IT.
 
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_projects_IT_ES.png" height= "350" width="500">
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_projects_IT_ES.png" height= "280" width="1100">
 
 
 ## Contingut
