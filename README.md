@@ -80,7 +80,7 @@ Finalment, en aquest gràfic de barres podem observar del total de projectes per
 
 En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cada Zona NUTS3
 
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_Proj_IT.png" height= "280" width="1050">
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_Proj_IT.png" height= "280" width="550">
 
 
 ## Agraïments
