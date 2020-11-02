@@ -38,9 +38,9 @@ Cada contractació de la qual informa la base de dades, conté, també, un camp 
 Tal com s’explica a l’apartat del context, la base de dades utilitzada en aquest estudi són les dades de contractacions públiques europees de l’any 2018 publicades a la plataforma ted, [Tenders Electronic Daily](https://data.europa.eu/euodp/en/data/dataset/ted-csv). 
 
 Hi ha informació sobre 227.022 contractacions públiques europees diferents identificades per la variable “ID_NOTICE_CN”.
-La taula inicial de dades, s'ha restringit per temes de mida i simplificació a dades relatives a Espanya on hi ha 13.058 contractacions públiques de les quals 93 estan cancel·lades (variable CANCELLED =1). Per tant, la base de dades final conté 12.956 contractacions diferents a nivell espanyol.
+La taula inicial de dades, s'ha restringit per temes de mida i simplificació a dades relatives a Espanya on hi ha 13.058 contractacions públiques de les quals 93 estan cancel·lades (variable CANCELLED =1). Per tant, la base de dades final conté 12.956 contractacions diferents a nivell espanyol. Posteriorment, cal netejar el dataset de forma que tinguem ben informades les dades que contenen la informació del NUTS3, això ens permet mantenir la taula final on hi ha 7.762 registres que informen sobre contractacions espanyoles d'institucions públiques no cancel·lades i amb el NUTS3 ben informat.
 
-Respecte les variables de la taula de dades inicial, una descripció es pot trobar [aquí](https://data.europa.eu/euodp/en/data/dataset/ted-csv/resource/08c8857c-d42e-4dd2-a55f-1c44e629e76f). La taula de dades inicial conté 64 variables de les quals s’han seleccionat les que tenen interès de cara al objectiu de l’estudi (per suposat NUTS3 i CPV però també d'altres que poden completar la descripció del fenomen d'interès). A continuació es mostra el detall de les variables seleccionades per la taula definitiva.
+Respecte les variables de la taula de dades inicial, una descripció es pot trobar [aquí](https://data.europa.eu/euodp/en/data/dataset/ted-csv/resource/08c8857c-d42e-4dd2-a55f-1c44e629e76f). La taula de dades inicial conté 64 variables de les quals s’han seleccionat les que tenen interès de cara al objectiu de l’estudi (per suposat NUTS3 i CPV però també d'altres que poden completar la descripció del fenomen d'interès). S'ha afegit una variable dicotòmica que determina si la contractació està relacionada amb IT a partir del coid CPV que comença per 72. A continuació es mostra el detall de les variables seleccionades per la taula definitiva.
 
 
 | Nom Variable    | Descripció                                                        | Escala   |
@@ -48,18 +48,19 @@ Respecte les variables de la taula de dades inicial, una descripció es pot trob
 | ID_NOTICE_CN    | Identificador únic de la contractació                             | Caràcter |
 | TED_NOTICE_URL  | Url a tota la informació de la contractació                       | Caràcter |
 | CAE_NAME        | Nom oficial del projecte                                          | Caràcter |
-|CAE_TOWN         | Ciutat que presenta la contractació pública                       | Caràcter |
-|CAE_POSTAL_CODE  | Url a tota la informació de la contractació                       | Caràcter |
-|CAE_TYPE         | Tipus d’autoritat que contracta (ministeri, entitat regional, ... | Caràcter |
-|MAIN_ACTIVITY    | Activitat principal 	                                          | Caràcter |
-|TYPE_OF_CONTRACT | Tipus de contracte (S=”Serveis”, U=”Suministres”, W=”Feina”)      | Caràcter |
-|CPV	          | Codi per especificar l’objectiu principal del contracte           | Caràcter |
-|VALUE_EURO_FIN_1 | Import en Euros del contracte                                     | Numèric  |
-|DURATION         | Durada contractació                                               | Numèric  |
-|NUTS3            | Codi a completar amb la geo-localització                          | Caràcter |
+| CAE_TOWN        | Ciutat que presenta la contractació pública                       | Caràcter |
+| CAE_POSTAL_CODE | Url a tota la informació de la contractació                       | Caràcter |
+| CAE_TYPE        | Tipus d’autoritat que contracta (ministeri, entitat regional, ... | Caràcter |
+| MAIN_ACTIVITY   | Activitat principal 	                                          | Caràcter |
+| TYPE_OF_CONTRACT| Tipus de contracte (S=”Serveis”, U=”Suministres”, W=”Feina”)      | Caràcter |
+| CPV	          | Codi per especificar l’objectiu principal del contracte           | Caràcter |
+| VALUE_EURO_FIN_1| Import en Euros del contracte                                     | Numèric  |
+| DURATION        | Durada contractació                                               | Numèric  |
+| NUTS3           | Codi a completar amb la geo-localització                          | Caràcter |
+| IT              | Si la contractació està relacionada amb IT o                      | Numèrica |
 
 
-Per tant, la taula de dades final conté 12.956 contractacions públiques europpes d'espanya, informades en 12 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada. 
+Per tant, la taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada. 
 
 
 ### Representació gràfica
