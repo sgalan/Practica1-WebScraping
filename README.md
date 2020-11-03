@@ -86,6 +86,17 @@ En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cad
 
 ## Agraïments
 
+Com hem descrit anteriorment, les dades obtingudes són propietat de la plataforma [Tenders Electronic Daily](https://ted.europa.eu/TED/main/HomePage.do), la versió online del 'Supplement to the Official Journal of the EU' que ofereix informació sobre les contractacions públiques europees i gestiona prop de 746.000 contractacions que mouen al voltant de 345 bilions d’euros.
+
+Aquestes dades han sigut objecte de molts estudis i anàlisis per diferents àmbits, sigui directament sobre aquestes mateixes dades, o com a complement d’informació per altres conjunts de dades. 
+
+De fet, la Comissió Europea, expressament divulga l’interès que té en que aquestes dades es reutilitzin a la recerca, tal com diu textualment “The European Commission is interested in the results of research on public procurement coming from the re-use of this data” i, encara més, manté una [wiki](https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?spaceKey=EPROC&title=TED+Open+Data+Wiki) amb idees de recerca relacionades amb les seves dades: “To support the exchange of ideas, especially between practitioners and academics, the Commission hosts an open wiki with ideas for research questions and existing examples of reuse related to this dataset. 
+
+En aquesta wiki podem trobar una quantitat enorme de vincles a interessos de recerca relacionats amb les dades que TED ofereix. En concret,  [Digital Whistleblower](http://digiwhist.eu/), (DIGIWHIST), recull molts dels estudis que s’han fet en relació a les contractacions publiques.
+
+Respecte el nostre objectiu d’estudi, les contractacions relatives a IT i, per tant, relacionades amb la transformació digital, hi ha publicacions com poden ser:
+
+
 ## Inspiració
 
 Avui dia es parla de la transformació digital, la indústria 4.0, la societat 5.0. Espanya a posat en marxa l'agenda digital 2025, "España Digital 2025", un pla per actuar sobre 10 eixos principals per encetar la transformació digital del pais. Tots aquests conceptes responen a un canvi cultural que està a l'ambient i que pretén ser una millora de present i futur. També és una necessitat donat el canvi i el dinamisme del món actual. La transformació digital d’una organització permetrà una nova manera d’interrelacionar i transformar el coneixement. A nivell empresarial representa un camí obligatori pel que fa referència a la competitivitat del mercat empresarial global. El terme digital fa referència a la tecnologia que treballa amb dades. 
