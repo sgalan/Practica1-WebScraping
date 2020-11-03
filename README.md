@@ -86,13 +86,13 @@ En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cad
 
 ## Agraïments
 
-Com hem descrit anteriorment, les dades obtingudes són propietat de la plataforma [Tenders Electronic Daily](https://ted.europa.eu/TED/main/HomePage.do), la versió online del 'Supplement to the Official Journal of the EU' que ofereix informació sobre les contractacions públiques europees i gestiona prop de 746.000 contractacions que mouen al voltant de 345 bilions d’euros.
+Com hem descrit anteriorment, les dades obtingudes són propietat de la plataforma [Tenders Electronic Daily](https://ted.europa.eu/TED/main/HomePage.do), la versió online del 'Supplement to the Official Journal of the EU' que ofereix informació sobre les contractacions públiques europees i gestiona, al'any, prop de 746.000 contractacions que mouen al voltant de 345 bilions d’euros.
 
 Aquestes dades han sigut objecte de molts estudis i anàlisis per diferents àmbits, sigui directament sobre aquestes mateixes dades, o com a complement d’informació per altres conjunts de dades. 
 
 De fet, la Comissió Europea, expressament divulga l’interès que té en que aquestes dades es reutilitzin a la recerca, tal com diu textualment “The European Commission is interested in the results of research on public procurement coming from the re-use of this data” i, encara més, manté una [wiki](https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?spaceKey=EPROC&title=TED+Open+Data+Wiki) amb idees de recerca relacionades amb les seves dades: “To support the exchange of ideas, especially between practitioners and academics, the Commission hosts an open wiki with ideas for research questions and existing examples of reuse related to this dataset. 
 
-En aquesta wiki podem trobar una quantitat enorme de vincles a interessos de recerca relacionats amb les dades que TED ofereix. En concret,  [Digital Whistleblower](http://digiwhist.eu/), (DIGIWHIST), recull molts dels estudis que s’han fet en relació a les contractacions publiques.
+En aquesta wiki podem trobar una quantitat enorme de vincles a interessos de recerca relacionats amb les dades que TED ofereix. En concret, [Digital Whistleblower](http://digiwhist.eu/), (DIGIWHIST), recull molts dels estudis que s’han fet en relació a les contractacions publiques.
 
 Respecte el nostre objectiu d’estudi, les contractacions relatives a IT i, per tant, relacionades amb la transformació digital, hi ha publicacions com poden ser:
 
