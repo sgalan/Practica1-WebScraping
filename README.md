@@ -94,8 +94,21 @@ De fet, la Comissió Europea, expressament divulga l’interès que té en que a
 
 En aquesta wiki podem trobar una quantitat enorme de vincles a interessos de recerca relacionats amb les dades que TED ofereix. En concret, [Digital Whistleblower](http://digiwhist.eu/), (DIGIWHIST), recull molts dels estudis que s’han fet en relació a les contractacions publiques.
 
-Respecte el nostre objectiu d’estudi, les contractacions relatives a IT i, per tant, relacionades amb la transformació digital, hi ha publicacions com poden ser:
+Respecte el nostre objectiu d’estudi, les contractacions relatives a IT i, per tant, relacionades amb la transformació digital i que utilitzen d'una o altra manera, les dades de TED, hi ha moltes publicacions recents sobre creació de valor en el mercat internacional (Muñoz-Garcia, C., Vila, J., 2019), sobre les contractacions públiques digitals orientades a les dades (Sanchez-Graells, A., 2019) o relacionades amb les polítiques públiques també orientades a les dades (Halsbenning, S., Niemann, M., 2019)
 
+
+Cristina Muñoz-Garcia, Jose Vila,
+Value creation in the international public procurement market: In search of springbok firms,
+Journal of Business Research,
+Volume 101,
+2019,
+Pages 516-521,
+ISSN 0148-2963,
+https://doi.org/10.1016/j.jbusres.2018.12.041.
+
+Sanchez-Graells, Albert, Data-Driven and Digital Procurement Governance: Revisiting Two Well-Known Elephant Tales (August 21, 2019). Available at SSRN: https://ssrn.com/abstract=3440552 or http://dx.doi.org/10.2139/ssrn.3440552
+
+S. Halsbenning and M. Niemann, "The European Procurement Dilemma-First Steps to Introduce Data-Driven Policy-Making in Public Procurement," 2019 IEEE 21st Conference on Business Informatics (CBI), Moscow, Russia, 2019, pp. 303-311, doi: 10.1109/CBI.2019.00041.
 
 ## Inspiració
 
