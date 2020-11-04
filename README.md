@@ -5,7 +5,7 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 <!-- TOC depthFrom:1 depthTo:8 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Compleció de dades per l’estudi de la presència de conceptes relatius a la sostenibilitat en l’àmbit de les contractacions públiques europees](#Compleció-de-dades-per-l’estudi-de-la-presència-de-conceptes-relatius-a-la-sostenibilitat-en-l’àmbit-de-les-contractacions-públiques-europees)
-    - [1. Context](#context)
+    - [ 1. Context](#context)
     - [Descripció del dataset](#descripció-del-dataset)
     - [Representació gràfica](#representació-gràfica)
     - [Contingut](#contingut)
