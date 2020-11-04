@@ -70,7 +70,7 @@ Per tant, la taula de dades final conté 7.762 contractacions públiques europpe
 
 La següent imatge mostra la idea del projecte, obtenir la distribució per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació
 
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="1100">
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="550">
 
 
 ## 5. Contingut
