@@ -60,7 +60,7 @@ La següent imatge mostra la idea del projecte, obtenir la distribució, per zon
 
 ## 5. Contingut
 
-### Descripció del datase
+### Descripció de les dades
 
 La taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada.
 
