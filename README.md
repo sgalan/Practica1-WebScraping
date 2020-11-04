@@ -67,6 +67,14 @@ Per tant, la taula de dades final conté 7.762 contractacions públiques europpe
 
 
 ## 4. Representació gràfica
+
+La següent imatge mostra la idea del projecte, obtenir la distribució per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació
+
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="1100">
+
+
+## 5. Contingut
+
 En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no després d'aplicar el script de web scraping (get_nuts.py).
 
 <img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
@@ -78,9 +86,6 @@ Dels projectes els quals tenen informació disponible en el camp NUTS3, obtenim 
 Finalment, en aquest gràfic de barres podem observar del total de projectes per província quin és el percentatge d'aquells que es troben dins del camp IT.
 
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_projects_IT_ES.png" height= "280" width="1100">
-
-
-## 5. Contingut
 
 En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cada Zona NUTS3
 
