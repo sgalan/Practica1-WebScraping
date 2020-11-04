@@ -5,15 +5,15 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 <!-- TOC depthFrom:1 depthTo:8 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Compleció de dades per l’estudi de la presència de conceptes relatius a la sostenibilitat en l’àmbit de les contractacions públiques europees](#Compleció-de-dades-per-l’estudi-de-la-presència-de-conceptes-relatius-a-la-sostenibilitat-en-l’àmbit-de-les-contractacions-públiques-europees)
-    - [ 1. Context](#context)
-    - [Descripció del dataset](#descripció-del-dataset)
-    - [Representació gràfica](#representació-gràfica)
-    - [Contingut](#contingut)
-    - [Agraïments](#agraïments)
-    - [Inspiració](#inspiració)
-    - [Llicència](#llicència)
-    - [Codi](#codi)
-    - [Publicació](#publicacio)
+    - [1. Context](#context)
+    - [3. Descripció del dataset](#descripció-del-dataset)
+    - [4. Representació gràfica](#representació-gràfica)
+    - [5. Contingut](#contingut)
+    - [6. Agraïments](#agraïments)
+    - [7. Inspiració](#inspiració)
+    - [8. Llicència](#llicència)
+    - [9. Codi](#codi)
+    - [10. Publicació](#publicacio)
 
 <!-- /TOC -->
 # Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
