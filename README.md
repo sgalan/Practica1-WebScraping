@@ -11,6 +11,9 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
     - [Contingut](#contingut)
     - [Agraïments](#agraïments)
     - [Inspiració](#inspiració)
+    - [Llicència](#llicència)
+    - [Codi](#codi)
+    - [Publicació](#publicacio)
 
 <!-- /TOC -->
 # Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
