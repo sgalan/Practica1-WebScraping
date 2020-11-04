@@ -15,7 +15,7 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 <!-- /TOC -->
 # Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
 
-## Context
+## 1. Context
 
 La nostre pràctica de “Web Scraping” sorgeix dins d’un projecte basat en l’interès en conèixer la distribució geogràfica de les contractacions públiques relacionades amb la transformació digital o contractacions “digitals” dins de l’àmbit europeu.
  
@@ -33,7 +33,7 @@ Cada contractació de la qual informa la base de dades, conté, també, un camp 
  
 És aquí on es perfila l’objectiu d’aquesta pràctica de “Web scraping”. Completar la informació de la taula de les contractacions per informar la variable NUTS3 i així poder encetar l’objectiu del projecte de context i trobar la distribució per NUTS3 de l’etiqueta "digital" en les contractacions públiques europees. Respecte el concepte "contractació relacionada amb la transformació digital" hem utilitzat un camp que es diu CPV, que classifica segons el seu objectiu cadascuna de les contractacions.
 
-## Descripció del dataset
+## 3. Descripció del dataset
 
 Tal com s’explica a l’apartat del context, la base de dades utilitzada en aquest estudi són les dades de contractacions públiques europees de l’any 2018 publicades a la plataforma ted, [Tenders Electronic Daily](https://data.europa.eu/euodp/en/data/dataset/ted-csv). 
 
@@ -57,13 +57,13 @@ Respecte les variables de la taula de dades inicial, una descripció es pot trob
 | VALUE_EURO_FIN_1| Import en Euros del contracte                                     | Numèric  |
 | DURATION        | Durada contractació                                               | Numèric  |
 | NUTS3           | Codi a completar amb la geo-localització                          | Caràcter |
-| IT              | Si la contractació està relacionada amb IT o                      | Numèrica |
+| IT              | Si la contractació està relacionada amb IT o no                   | Numèrica |
 
 
 Per tant, la taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada. 
 
 
-### Representació gràfica
+## 4. Representació gràfica
 En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no després d'aplicar el script de web scraping (get_nuts.py).
 
 <img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
@@ -77,14 +77,14 @@ Finalment, en aquest gràfic de barres podem observar del total de projectes per
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_projects_IT_ES.png" height= "280" width="1100">
 
 
-## Contingut
+## 5. Contingut
 
 En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cada Zona NUTS3
 
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_Proj_IT.png" height= "300" width="480">
 
 
-## Agraïments
+## 6. Agraïments
 
 Com hem descrit anteriorment, les dades obtingudes són propietat de la plataforma [Tenders Electronic Daily](https://ted.europa.eu/TED/main/HomePage.do), la versió online del 'Supplement to the Official Journal of the EU' que ofereix informació sobre les contractacions públiques europees i gestiona, al'any, prop de 746.000 contractacions que mouen al voltant de 345 bilions d’euros.
 
@@ -110,7 +110,7 @@ Sanchez-Graells, Albert, Data-Driven and Digital Procurement Governance: Revisit
 
 S. Halsbenning and M. Niemann, "The European Procurement Dilemma-First Steps to Introduce Data-Driven Policy-Making in Public Procurement," 2019 IEEE 21st Conference on Business Informatics (CBI), Moscow, Russia, 2019, pp. 303-311, doi: 10.1109/CBI.2019.00041.
 
-## Inspiració
+## 7. Inspiració
 
 Avui dia es parla de la transformació digital, la indústria 4.0, la societat 5.0. Espanya a posat en marxa l'agenda digital 2025, "España Digital 2025", un pla per actuar sobre 10 eixos principals per encetar la transformació digital del pais. Tots aquests conceptes responen a un canvi cultural que està a l'ambient i que pretén ser una millora de present i futur. També és una necessitat donat el canvi i el dinamisme del món actual. La transformació digital d’una organització permetrà una nova manera d’interrelacionar i transformar el coneixement. A nivell empresarial representa un camí obligatori pel que fa referència a la competitivitat del mercat empresarial global. El terme digital fa referència a la tecnologia que treballa amb dades. 
 
@@ -119,3 +119,19 @@ La implementació de tecnologia és un dels aspectes de la transformació digita
 Per tant, és clar que qualsevol estudi relacionat amb la transformació digital pot tenir un interès i una utilitat rellevants.
 
 La  motivació d'aquest treball, llavors, neix amb la idea d'explorar, en aquest cas a nivell espanyol, en quin punt estem respecte la transformació digital en relació amb les contractacions públiques de l'àmbit de les tecnologies. I, en concret, com es distribueix aquest concepte a nivell de tot l'estat espanyol. Abastar tot el concepte de Transformació Digital respecte les contractacions de les entitats públiques és molt complexe, però, una primera aproximació, pot ser estudiar la distribució dels tipus de projecte (si són relatius a les tecnolgies de la informació o no) dins del estat espanyol. Aquest és l'objectiu del nostre projecte.
+
+## 8. Llicència
+
+S'ha escollit la llicència ....
+
+## 9. Codi
+
+El codi s'ha desenvolupat en Python i es pot trobar en la branch de codi. 
+
+## 10. Publicació
+
+S'ha publicat el dataset en format CSV a Zenodo DOI .... i una breu descripció.
+
+
+
+
