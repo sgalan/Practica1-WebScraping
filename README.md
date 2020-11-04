@@ -43,7 +43,26 @@ Tal com s’explica a l’apartat del context, la base de dades utilitzada en aq
 Hi ha informació sobre 227.022 contractacions públiques europees diferents identificades per la variable “ID_NOTICE_CN”.
 La taula inicial de dades, s'ha restringit per temes de mida i simplificació a dades relatives a Espanya on hi ha 13.058 contractacions públiques de les quals 93 estan cancel·lades (variable CANCELLED =1). Per tant, la base de dades final conté 12.956 contractacions diferents a nivell espanyol. Posteriorment, cal netejar el dataset de forma que tinguem ben informades les dades que contenen la informació del NUTS3, això ens permet mantenir la taula final on hi ha 7.762 registres que informen sobre contractacions espanyoles d'institucions públiques no cancel·lades i amb el NUTS3 ben informat.
 
-Respecte les variables de la taula de dades inicial, una descripció es pot trobar [aquí](https://data.europa.eu/euodp/en/data/dataset/ted-csv/resource/08c8857c-d42e-4dd2-a55f-1c44e629e76f). La taula de dades inicial conté 64 variables de les quals s’han seleccionat les que tenen interès de cara al objectiu de l’estudi (per suposat NUTS3 i CPV però també d'altres que poden completar la descripció del fenomen d'interès). S'ha afegit una variable dicotòmica que determina si la contractació està relacionada amb IT a partir del coid CPV que comença per 72. A continuació es mostra el detall de les variables seleccionades per la taula definitiva.
+Respecte les variables de la taula de dades inicial, una descripció es pot trobar [aquí](https://data.europa.eu/euodp/en/data/dataset/ted-csv/resource/08c8857c-d42e-4dd2-a55f-1c44e629e76f). La taula de dades inicial conté 64 variables de les quals s’han seleccionat les que tenen interès de cara al objectiu de l’estudi (per suposat NUTS3 i CPV però també d'altres que poden completar la descripció del fenomen d'interès). S'ha afegit una variable dicotòmica que determina si la contractació està relacionada amb IT a partir del coid CPV que comença per 72.  
+
+En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no després d'aplicar el script de web scraping (get_nuts.py).
+
+<img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
+
+
+
+## 4. Representació gràfica
+
+La següent imatge mostra la idea del projecte, obtenir la distribució, per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació.
+
+<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="550">
+
+
+## 5. Contingut
+
+La taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada.
+
+A continuació es mostra el detall de les variables seleccionades per la taula definitiva.
 
 
 | Nom Variable    | Descripció                                                        | Escala   |
@@ -62,22 +81,6 @@ Respecte les variables de la taula de dades inicial, una descripció es pot trob
 | NUTS3           | Codi a completar amb la geo-localització                          | Caràcter |
 | IT              | Si la contractació està relacionada amb IT o no                   | Numèrica |
 
-
-Per tant, la taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada. 
-
-
-## 4. Representació gràfica
-
-La següent imatge mostra la idea del projecte, obtenir la distribució per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació
-
-<img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="550">
-
-
-## 5. Contingut
-
-En la gràfica següent podem observar del número total de projectes a Espanya, el percentatge dels quals hi ha informació consistent sobre el NUTS3 en comparació amb els que no després d'aplicar el script de web scraping (get_nuts.py).
-
-<img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
 
 Dels projectes els quals tenen informació disponible en el camp NUTS3, obtenim la seva localització creuant la informació amb el diccionari disponible (nuts_dictionary.pickle). En aquest gràfic de barres podem observar de manera ordenada d'esquerre a dreta les províncies que tenen més projectes.
 
@@ -138,7 +141,7 @@ El codi s'ha desenvolupat en Python i es pot trobar en la branch de codi.
 
 ## 10. Publicació
 
-S'ha publicat el dataset en format CSV a Zenodo DOI .... i una breu descripció.
+S'ha publicat el dataset en format CSV a Zenodo DOI .... i una breu descripció (Projecte basat en l’interès en conèixer la distribució geogràfica de les contractacions públiques relacionades amb la transformació digital o contractacions “digitals” dins de l’àmbit europeu).
 
 
 
