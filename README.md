@@ -5,27 +5,27 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 <!-- TOC depthFrom:1 depthTo:8 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Compleció de dades per l’estudi de la presència de conceptes relatius a la sostenibilitat en l’àmbit de les contractacions públiques europees](#Compleció-de-dades-per-l’estudi-de-la-presència-de-conceptes-relatius-a-la-sostenibilitat-en-l’àmbit-de-les-contractacions-públiques-europees)
-    - [0. Membres del grup](#membres-del-grup)
-    - [1. Context](#context)
-    - [3. Descripció del dataset](#descripció-del-dataset)
-    - [4. Representació gràfica](#representació-gràfica)
-    - [5. Contingut](#contingut)
-        - [5.1 Descripció de les dades](#descripció-de-les-dades)
-        - [5.2 Obtenció de les dades: Web Scraping](#obtenció-de-les-dades:-web-scraping)
-        - [5.3 Descripció dels fitxers](#descripció-dels-fitxers)
-    - [6. Agraïments](#agraïments)
-    - [7. Inspiració](#inspiració)
-    - [8. Llicència](#llicència)
-    - [9. Codi](#codi)
-    - [10. Publicació](#publicacio)
+    - [Membres del grup](#membres-del-grup)
+    - [Context](#context)
+    - [Descripció del dataset](#descripció-del-dataset)
+    - [Representació gràfica](#representació-gràfica)
+    - [Contingut](#contingut)
+        - [Descripció de les dades](#descripció-de-les-dades)
+        - [Obtenció de les dades: Web Scraping](#obtenció-de-les-dades:-web-scraping)
+        - [Descripció dels fitxers](#descripció-dels-fitxers)
+    - [Agraïments](#agraïments)
+    - [Inspiració](#inspiració)
+    - [Llicència](#llicència)
+    - [Codi](#codi)
+    - [Publicació](#publicació)
 
 <!-- /TOC -->
 # Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
 
-## 0. Membres del grup
+## Membres del grup
 Aquesta activitat ha estat realitzada per David Roche Valles i Silvia Galan Martínez.
 
-## 1. Context
+## Context
 
 La nostre pràctica de “Web Scraping” sorgeix dins d’un projecte basat en l’interès en conèixer la distribució geogràfica de les contractacions públiques relacionades amb la transformació digital o contractacions “digitals” dins de l’àmbit europeu.
  
@@ -43,7 +43,7 @@ Cada contractació de la qual informa la base de dades, conté, també, un camp 
  
 És aquí on es perfila l’objectiu d’aquesta pràctica de “Web scraping”. Completar la informació de la taula de les contractacions per informar la variable NUTS3 i així poder encetar l’objectiu del projecte de context i trobar la distribució per NUTS3 de l’etiqueta "digital" en les contractacions públiques europees. Respecte el concepte "contractació relacionada amb la transformació digital" hem utilitzat un camp que es diu CPV, que classifica segons el seu objectiu cadascuna de les contractacions.
 
-## 3. Descripció del dataset
+## Descripció del dataset
 
 Tal com s’explica a l’apartat del context, la base de dades utilitzada en aquest estudi són les dades de contractacions públiques europees de l’any 2018 publicades a la plataforma ted, [Tenders Electronic Daily](https://data.europa.eu/euodp/en/data/dataset/ted-csv). 
 
@@ -57,16 +57,16 @@ En la gràfica següent podem observar del número total de projectes a Espanya,
 <img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
 
 
-## 4. Representació gràfica
+## Representació gràfica
 
 La següent imatge mostra la idea del projecte, obtenir la distribució, per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació.
 
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/abstract_image.png" height= "280" width="550">
 
 
-## 5. Contingut
+## Contingut
 
-### 5.1 Descripció de les dades
+### Descripció de les dades
 
 La taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada.
 
@@ -102,11 +102,12 @@ En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cad
 
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_Proj_IT.png" height= "300" width="480">
 
-### 5.2 Obtenció de les dades: Web Scraping
+### Obtenció de les dades: Web Scraping
 
-### 5.3 Descripció dels fitxers
 
-## 6. Agraïments
+### Descripció dels fitxers
+
+## Agraïments
 
 Com hem descrit anteriorment, les dades obtingudes són propietat de la plataforma [Tenders Electronic Daily](https://ted.europa.eu/TED/main/HomePage.do), la versió online del 'Supplement to the Official Journal of the EU' que ofereix informació sobre les contractacions públiques europees i gestiona, al'any, prop de 746.000 contractacions que mouen al voltant de 345 bilions d’euros.
 
@@ -132,7 +133,7 @@ Sanchez-Graells, Albert, Data-Driven and Digital Procurement Governance: Revisit
 
 S. Halsbenning and M. Niemann, "The European Procurement Dilemma-First Steps to Introduce Data-Driven Policy-Making in Public Procurement," 2019 IEEE 21st Conference on Business Informatics (CBI), Moscow, Russia, 2019, pp. 303-311, doi: 10.1109/CBI.2019.00041.
 
-## 7. Inspiració
+## Inspiració
 
 Avui dia es parla de la transformació digital, la indústria 4.0, la societat 5.0. Espanya a posat en marxa l'agenda digital 2025, "España Digital 2025", un pla per actuar sobre 10 eixos principals per encetar la transformació digital del pais. Tots aquests conceptes responen a un canvi cultural que està a l'ambient i que pretén ser una millora de present i futur. També és una necessitat donat el canvi i el dinamisme del món actual. La transformació digital d’una organització permetrà una nova manera d’interrelacionar i transformar el coneixement. A nivell empresarial representa un camí obligatori pel que fa referència a la competitivitat del mercat empresarial global. El terme digital fa referència a la tecnologia que treballa amb dades. 
 
@@ -142,14 +143,14 @@ Per tant, és clar que qualsevol estudi relacionat amb la transformació digital
 
 La  motivació d'aquest treball, llavors, neix amb la idea d'explorar, en aquest cas a nivell espanyol, en quin punt estem respecte la transformació digital en relació amb les contractacions públiques de l'àmbit de les tecnologies. I, en concret, com es distribueix aquest concepte a nivell de tot l'estat espanyol. Abastar tot el concepte de Transformació Digital respecte les contractacions de les entitats públiques és molt complexe, però, una primera aproximació, pot ser estudiar la distribució dels tipus de projecte (si són relatius a les tecnolgies de la informació o no) dins del estat espanyol. Aquest és l'objectiu del nostre projecte.
 
-## 8. Llicència
+## Llicència
 
 S'ha escollit la llicència ....
 
-## 9. Codi
+## Codi
 
 El codi s'ha desenvolupat en Python i es pot trobar en la branch de codi. 
 
-## 10. Publicació
+## Publicació
 
 S'ha publicat el dataset en format CSV a Zenodo DOI .... i una breu descripció (Projecte basat en l’interès en conèixer la distribució geogràfica de les contractacions públiques relacionades amb la transformació digital o contractacions “digitals” dins de l’àmbit europeu).
