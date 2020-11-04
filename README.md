@@ -5,10 +5,14 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 <!-- TOC depthFrom:1 depthTo:8 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Compleció de dades per l’estudi de la presència de conceptes relatius a la sostenibilitat en l’àmbit de les contractacions públiques europees](#Compleció-de-dades-per-l’estudi-de-la-presència-de-conceptes-relatius-a-la-sostenibilitat-en-l’àmbit-de-les-contractacions-públiques-europees)
+    - [0. Membres del grup](#membres-del-grup)
     - [1. Context](#context)
     - [3. Descripció del dataset](#descripció-del-dataset)
     - [4. Representació gràfica](#representació-gràfica)
     - [5. Contingut](#contingut)
+        - [5.1 Descripció de les dades](#descripció-de-les-dades)
+        - [5.2 Obtenció de les dades: Web Scraping](#obtenció-de-les-dades:-web-scraping)
+        - [5.3 Descripció dels fitxers](#descripció-dels-fitxers)
     - [6. Agraïments](#agraïments)
     - [7. Inspiració](#inspiració)
     - [8. Llicència](#llicència)
@@ -17,6 +21,9 @@ Aquesta pràctica s'ha realitzat per l'assignatura de Tipologia i cicle de vida 
 
 <!-- /TOC -->
 # Compleció de dades per l’estudi de la presència de conceptes relatius a la transformació digital en l’àmbit de les contractacions públiques europees
+
+## 0. Membres del grup
+Aquesta activitat ha estat realitzada per David Roche Valles i Silvia Galan Martínez.
 
 ## 1. Context
 
@@ -50,7 +57,6 @@ En la gràfica següent podem observar del número total de projectes a Espanya,
 <img align="center" src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/information_available.png" height= "300" width="300">
 
 
-
 ## 4. Representació gràfica
 
 La següent imatge mostra la idea del projecte, obtenir la distribució, per zones estadístiques, de la contractacions relatives a la transformació digital o tecnologies de la informació.
@@ -60,7 +66,7 @@ La següent imatge mostra la idea del projecte, obtenir la distribució, per zon
 
 ## 5. Contingut
 
-### Descripció de les dades
+### 5.1 Descripció de les dades
 
 La taula de dades final conté 7.762 contractacions públiques europpes d'espanya, informades en 13 variables que detallen aspectes relacionats amb la pròpia entitat o organització que contracte com la ubicació i el tipus, aspectes relatius a la pròpia contractació com el nom o objectiu, el tipus, la durada, el valor econòmic en euros i el codi d'objectiu ademés de la variable IT de si la contractació està relacionada amb IT o no. Per tant, a partir d'aquesta informació, podrem estudiar la distribució de les contractacions per les diferents regions espanyoles segons si són o no relatives a la transformació digital (a partir de l'atribut CPV) i relacionar-ho amb altres indicadors com l'econòmic o la durada.
 
@@ -96,8 +102,9 @@ En aquest gràfic  podem veure el percentatge de projectes relatius a IT per cad
 
 <img src="https://github.com/sgalan/Practica1-WebScraping/blob/main/Images/Perc_Proj_IT.png" height= "300" width="480">
 
-### Obtenció de les dades (Web Scraping)
+### 5.2 Obtenció de les dades: Web Scraping
 
+### 5.3 Descripció dels fitxers
 
 ## 6. Agraïments
 
@@ -146,7 +153,3 @@ El codi s'ha desenvolupat en Python i es pot trobar en la branch de codi.
 ## 10. Publicació
 
 S'ha publicat el dataset en format CSV a Zenodo DOI .... i una breu descripció (Projecte basat en l’interès en conèixer la distribució geogràfica de les contractacions públiques relacionades amb la transformació digital o contractacions “digitals” dins de l’àmbit europeu).
-
-
-
-
