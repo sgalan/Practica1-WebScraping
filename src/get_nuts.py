@@ -64,7 +64,11 @@ def main(argv):
             df.loc[index, 'TAL_LOCATION_NUTS'] = 'NA'
             delay()  # delay randomly from 15 to 30 seconds to avoid being blocked
 
-    # Store output dataframe
+    # Filter to keep only projects with NUTS complete and store output dataframe
+    for p, i in df.iterrows():
+        if len(str(i['TAL_LOCATION_NUTS'])) != 5:
+            df.drop([p], inplace=True)
+
     df.to_csv(outputfile)
 
 
