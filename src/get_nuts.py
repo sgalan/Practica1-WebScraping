@@ -26,45 +26,48 @@ header_dict = {"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,
 
 
 def main(argv):
-   inputfile = ''
-   outputfile = ''
+    inputfile = ''
+    outputfile = ''
     try:
         opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
-        print ('get_nuts.py -i <inputfile> -o <outputfile>')
+        print('get_nuts.py -i <inputfile> -o <outputfile>')
         sys.exit(2)
 
     for opt, arg in opts:
         if opt == '-h':
-            print ('get_nuts.py -i <inputfile> -o <outputfile>')
+            print('get_nuts.py -i <inputfile> -o <outputfile>')
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
 
-    print ('Input file is "', inputfile)
-    print ('Output file is "', outputfile)
+    print('Input file is: ', inputfile)
+    print('Output file is: ', outputfile)
 
-    #Load input dataframe
+    # Load input dataframe
     df = pd.read_csv(inputfile, low_memory=False)
 
     # Enter to different html to extract NUTS3 code and store it
-    for index, row in df.iterrows(): #iterate through the rows
+    for index, row in df.iterrows(): # iterate through the rows
         html = 'http://'+str(row['TED_NOTICE_URL'])
         try:
-            page = requests.get(html, headers=header_dict) # request access to the html
-            soup = BeautifulSoup(page.content) # get the content using BeautifulSoup
-            NUTSCODE = soup.find('span', class_ = 'nutsCode').contents[0].split()[0] #Look for the class containing NUTS
-            df.loc[index,'TAL_LOCATION_NUTS'] = NUTSCODE #Store NUTS3
+            page = requests.get(html, headers=header_dict)  # request access to the html
+            soup = BeautifulSoup(page.content, features="lxml")  # get the content using BeautifulSoup
+            # Look for the class containing NUTS
+            nutscode = soup.find('span', class_ = 'nutsCode').contents[0].split()[0]
+            df.loc[index, 'TAL_LOCATION_NUTS'] = nutscode  # Store NUTS3
             delay() # delay randomly from 15 to 30 seconds to avoid being blocked
         except:
             # sometimes this information is not available
-            df.loc[index,'TAL_LOCATION_NUTS'] = 'NA'
+            df.loc[index, 'TAL_LOCATION_NUTS'] = 'NA'
             delay()  # delay randomly from 15 to 30 seconds to avoid being blocked
 
     # Store output dataframe
     df.to_csv(outputfile)
 
+
 if __name__ == "__main__":
-   main(sys.argv[1:])
+    main(sys.argv[1:])
+
